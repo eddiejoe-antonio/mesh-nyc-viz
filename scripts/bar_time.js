@@ -1,10 +1,10 @@
 //NEW link new file
-Promise.all([d3.json("../data/monthtotals.json"),d3.json("../data/yeartotals.json")])
+Promise.all([d3.json("data/monthtotals.json"),d3.json("data/yeartotals.json")])
     .then(function(data){
     //NEW link new data and set old data as first item in data array and links to 2nd
     var dataset = data[0]
     var year = data[1]
-    console.log( d3.min(year, function(year) { return year.New_Nodes; }))
+    console.log(year)
     
     //Width and height of svg
     var padding = 60;

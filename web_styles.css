@@ -89,6 +89,16 @@ aside {
     text-decoration: none;
 }
 
+.bottom__title {
+    text-decoration: none;
+    float: right;
+    display: block;
+    color: white;
+    margin-right: 95%;
+    margin-bottom: 2.5%;
+    padding: 14px 16px;
+}
+
 .rotatedTitle {
     margin-top: 0%;
     margin-left: 0%;
